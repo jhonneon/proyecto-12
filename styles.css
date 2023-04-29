@@ -12,6 +12,10 @@ header{
     color: white;
     justify-content: space-around;
     height: 15vh;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+
 }
 main h2{
     font-size: 30px;
@@ -21,6 +25,7 @@ main p{
 }
 main{
     padding: 0px 100px;
+    padding-top: 15vh;
 }
 nav{
     width: 60%;
@@ -45,16 +50,83 @@ ul{
     grid-template-rows: 400px 400px;
     column-gap:20px;
     row-gap: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 #galeria-container >img:hover{
-    filter: brightness(0.2);
+    filter: brightness(0.8);
+    transform: scale(1.1);
+ text-shadow: hola;
 }
+
+
+
+
+    
+
 #about-me{
     display: flex;
     margin-top: 100px;
-    justify-content: space-between;
+    
 }
 #about-me > img{
     width: 300px;
     height: 300px;
+}
+#about-me > div{
+    width: 75%;
+}
+form{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+input[type=submit]{
+    width: 200px;
+    background-color: #774f4f;
+    color: white
+
+
+}
+textarea{
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 100%;
+}
+#contact {
+    margin-top: 250px;
+    display:flex;
+    justify-content: space-between;
+}
+label{
+    width: 100%;
+}
+form > input{
+    height: 40px;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 10px;
+    display: flex;
+    
+}
+#contact > div{
+width: 50%;
+}
+#contac > img{
+width: 40%;
+
+}
+footer{
+    margin-top: 10%;
+   width: 100%;
+   background-color:#774f ; 
+   color: white;
+ height: 15vh;
+ display: flex;
+ justify-content: center;
+ align-content: center;  
 }
