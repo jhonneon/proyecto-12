@@ -56,14 +56,8 @@ ul{
 #galeria-container >img:hover{
     filter: brightness(0.8);
     transform: scale(1.1);
- text-shadow: hola;
+ 
 }
-
-
-
-
-    
-
 #about-me{
     display: flex;
     margin-top: 100px;
@@ -85,12 +79,12 @@ form{
     align-items: center;
     
 }
-input[type=submit]{
+input[type=button]{
     width: 200px;
     background-color: #774f4f;
-    color: white
-
-
+    color: white;
+    align-items: end;
+    margin-top: 10px;
 }
 textarea{
     border-radius: 10px;
@@ -114,19 +108,28 @@ form > input{
     
 }
 #contact > div{
-width: 50%;
+   display: flex;
+   justify-content: space-between;
+
 }
 #contac > img{
-width: 40%;
+   width: 40%;
 
 }
 footer{
-    margin-top: 10%;
+   margin-top: 10%;
    width: 100%;
    background-color:#774f ; 
    color: white;
- height: 15vh;
- display: flex;
- justify-content: center;
- align-content: center;  
+   height: 15vh;
+   display: flex;
+   justify-content: center;
+   align-content: center;  
+}
+ img{
+
+    height: 50%;
+    width: 50%;
+    margin-top: 20px;
+    
 }
