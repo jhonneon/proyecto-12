@@ -70,15 +70,16 @@ ul{
 #about-me > div{
     width: 75%;
 }
+
 form{
-    width: 40%;
-    height: 400px;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     
 }
+
 input[type=button]{
     width: 200px;
     background-color: #774f4f;
@@ -110,12 +111,24 @@ form > input{
 #contact > div{
    display: flex;
    justify-content: space-between;
+   
+   
 
 }
-#contac > img{
-   width: 40%;
+#contac > .contac-1{
+    width: 50%; 
+    float: left;
+    padding: 5px;
+    padding-right: 100px;
 
 }
+
+#contac > #contac-2{
+    width: 50%; 
+    float: right;
+    padding: 10px;
+}
+
 footer{
    margin-top: 10%;
    width: 100%;
@@ -126,10 +139,8 @@ footer{
    justify-content: center;
    align-content: center;  
 }
- img{
-
-    height: 50%;
-    width: 50%;
-    margin-top: 20px;
-    
+video{
+    margin-bottom: 6%;
+    top 10px;
 }
+ 
